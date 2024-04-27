@@ -1,11 +1,11 @@
 ### Get all users published link
-GET https://cse341-project1-bk0y.onrender.com/users
+GET https://cse341-project1-bk0y.onrender.com/contacts
 ### get all users localhost
-GET http://localhost:3000/users
+GET http://localhost:3000/contacts
 
 
 ### Get single user by ID published link
-GET https://cse341-project1-bk0y.onrender.com/users/650c5812c06bc031e32200a1
+GET https://cse341-project1-bk0y.onrender.com/contacts/6338d07ec51624e0408341bd
 
 ### Get single user by ID localhost
-GET http://localhost:3000/users/650c5812c06bc031e32200a1
+GET http://localhost:3000/contacts/6338d07ec51624e0408341bd
