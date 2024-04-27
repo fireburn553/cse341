@@ -1,0 +1,6 @@
+### Get all users 
+GET https://cse341-project1-bk0y.onrender.com/users
+
+
+### Get single user by ID
+GET https://cse341-project1-bk0y.onrender.com/users/650c5812c06bc031e32200a1
