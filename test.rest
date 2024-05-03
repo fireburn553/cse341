@@ -9,3 +9,31 @@ GET https://cse341-project1-bk0y.onrender.com/contacts/6338d07ec51624e0408341bd
 
 ### Get single user by ID localhost
 GET http://localhost:3000/contacts/6338d07ec51624e0408341bd
+
+
+### Create contact
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Ashley",
+    "lastName": "Weaver",
+    "email": "aweaeber@gmail.com",
+    "favoriteColor": "Yellow",
+    "birthday": "11/11/2220"
+}
+
+### Update Contact
+PUT http://localhost:3000/contacts/6634707a5182a3803d2066d9 HTTP/1.1
+content-type: application/json
+
+{
+    "birthday": "1/1/1970",
+    "email": "adam@example.com",
+    "favoriteColor": "blue",
+    "firstName": "AdamNess",
+    "lastName": "Sandler"
+}
+
+### DELETE contact
+DELETE http://localhost:3000/contacts/6634e21b5ed3c4feb822c2e5 HTTP/1.1
